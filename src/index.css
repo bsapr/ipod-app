@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* container */
+#container {
+  width: 320px;
+  height: 500px;
+  border-radius: 8%;
+  background-color: rgb(190, 186, 186);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+}
+/* Screen */
+#screen {
+  width: 92%;
+  height: 50%;
+  border: 4.5px solid black;
+  background-color: white;
+}
+.header {
+  height: 9%;
+  background-color: rgb(192, 223, 248);
+  border-bottom: 1px solid black;
+  padding-left: 3.5px;
+  padding-right: 3.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.header span:first-child {
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#screenList-body {
+  height: 91%;
+  /* padding-left: 3.5px;
+  padding-right: 3.5px; */
+  display: flex;
+  flex-direction: row;
+}
+
+#screenList {
+  height: 100%;
+  width: 60%;
+  border-right: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.screenListItem {
+  height: 25%;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#screenImage {
+  height: 100%;
+  width: 40%;
+}
+/* Controller */
+#controller {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#wheel {
+  width: 85%;
+  height: 95%;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+}
+#menu {
+  color: darkgray;
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  left: 36%;
+  top: 10%;
+}
+#backward {
+  color: darkgray;
+  font-weight: bolder;
+  font-size: 28px;
+  position: absolute;
+  left: 9%;
+  top: 40%;
+}
+#select {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: darkgray;
+  position: absolute;
+  top: 31%;
+  left: 33%;
+}
+#forward {
+  color: darkgray;
+  font-weight: bolder;
+  font-size: 28px;
+  position: absolute;
+  right: 9%;
+  top: 40%;
+}
+#play-pause {
+  color: darkgray;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  left: 43.5%;
+  top: 81%;
+}
+/* general class */
+.green {
+  color: rgb(21, 156, 21);
+}
